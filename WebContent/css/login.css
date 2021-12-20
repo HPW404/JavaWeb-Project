@@ -1,0 +1,125 @@
+.box{
+    /* width: 1350px; */
+    height: 580px;
+    width: 98%;
+    margin: 1% 1%;
+    background-color:white;
+    border-radius: 6px;
+}
+.top-bar{
+    height: 15%;
+}
+.top-item{
+    float: left;
+    height: max-content;
+    margin: 20px 30px;
+}
+
+#logo{
+    width: 14%;
+    height: auto;
+}
+#system{
+    padding-left: 35px;
+    font-size: 30px;
+    margin-left: 0;
+    border-left: 2px solid gainsboro;
+}
+#login_title{
+    float: right;
+    padding: 5px 60px 5px 5px;
+    font-size: 26px;
+}
+.main{
+    padding: 5% 5%;
+    background-color: rgb(204, 233, 235);
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.img{
+    width: 55%;
+    font-size: 0;
+    padding: 0;
+    border: 4px solid rgb(225, 250, 156);
+    float: left;
+    margin-right: 2%;
+    border-radius: 6px;
+}
+.top-bar::after, .main::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+#login-form{
+    width: 32%;
+    height: 50%;
+    margin-left: 30px;
+    float: left;
+    padding: 20px 40px 68px;
+    background-color: white;
+    border-radius: 5px;
+}
+.input-area{
+    margin: 30px 5%;
+    padding: 2px;
+}
+.input-area input{
+    font-size: large;
+    vertical-align: middle;
+    width:fit-content;
+    margin-left: 10px;
+    height: 40px;
+    padding: 2px 2px 2px 10px;
+    background-color: rgb(222, 252, 245);
+    border: 2px solid rgb(164, 182, 123);
+    border-radius: 5px;
+}
+.input-area input:hover{
+    border-color: green;
+}
+
+.input-area label{
+    vertical-align: middle;
+    font-size: 21px;
+    padding: 6px 4px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 6px;
+}
+.btns{
+    margin-top: 9%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.btn{
+    font-size: 22px;
+    background-color: #55ACEE;
+    color: white;
+    padding: 5px 25px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 0;
+}
+.btn:hover{
+    background-color: #438fc9;
+}
+.btn:active{
+    box-shadow: 0 0 3px 1px rgb(133, 199, 243);
+}
+#clear{
+    float: right;
+    color: white;
+}
+.check-area input{
+    margin: 10px 3px 10px 9%;
+    width: 8%;
+
+}
+p.msg {
+    height: 30px;
+    font-size: 22px;
+    font-weight: 300;
+    margin: 0;
+    text-align: center;
+    color: gray;
+}
