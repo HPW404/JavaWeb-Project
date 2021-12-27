@@ -28,7 +28,7 @@
 
 ## 3. 部署方法
 
-1. 在Github上下载安装包或git clone到本地
+1. 在Github上下载压缩包或git clone到本地
 
 2. 在本地数据库中导入sql文件夹下的sql脚本
 
