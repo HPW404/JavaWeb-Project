@@ -32,9 +32,7 @@
 
 2. 在本地数据库中导入sql文件夹下的sql脚本
 
-3. 修改src文件夹下c3p0-config.xml中数据库地址
-
-4. 用户界面运行a.jsp文件，管理员界面运行admin/adminLogin.jsp
+3. 用户界面运行a.jsp文件，管理员界面运行admin/adminLogin.jsp
 
 ## 4. 开发人员信息
 
